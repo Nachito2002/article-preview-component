@@ -83,7 +83,7 @@ body {
 }
 
 .share {
-	display: flex;
+	display: none;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
@@ -119,8 +119,4 @@ body {
 	padding: .5rem;
 	border-radius: 50%;
 	cursor: pointer;
-}
-
-.footer {
-	display: none;
 }
