@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+body {
+	margin: 3rem 1rem;
+	background-color: hsl(213, 44%, 95%);
+	font-family: "Manrope", sans-serif;
+	font-weight: 500;
+}
+
+.card {
+	border-radius: 1rem;
+	background-color: white;
+	box-shadow: 1rem 1rem 1rem gray;
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.card__img {
+	max-width: 100%;
+	border-top-left-radius: 1rem;
+	border-top-right-radius: 1rem;
+}
+
+.card__body {
+	padding: 2rem;
+}
+
+.card__title {
+	margin-top: 0;
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: hsl(217, 19%, 35%);
+}
+
+.card__description {
+	color: hsl(214, 17%, 51%);
+	line-height: 1.5rem;
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem;
+}
+
+.footer__info {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.footer__photo {
+	border-radius: 50%;
+	max-width: 50px;
+	margin-right: 1rem
+}
+
+.footer__name-date {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: start;
+	font-size: 13px;
+}
+
+.footer__name {
+	color: hsl(217, 19%, 35%);
+}
+
+.footer__date {
+	color: hsl(214, 17%, 51%);
+}
+
+.footer__icon {
+	background-color: hsl(210, 46%, 95%);
+	padding: .5rem;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.share {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem;
+	background-color: hsl(219, 19%, 35%);
+	border-bottom-left-radius: 1rem;
+	border-bottom-right-radius: 1rem;
+}
+
+.share__icons {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.share__text {
+	color: hsl(219, 19%, 65%);
+	letter-spacing: .5rem;
+	margin-right: 2rem;
+}
+
+.share__icon {
+	cursor: pointer;
+}
+
+.share__icon:not(:last-child) {
+	margin-right: 1rem;
+}
+
+.share__icon-share {
+	background-color: white;
+	padding: .5rem;
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.footer {
+	display: none;
+}

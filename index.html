@@ -5,13 +5,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="author" content="Ignacio Alejandro Torres Franceschi">
 	<meta name="description" content="Article Preview Component Mockup">
+	<link rel="stylesheet" href="./css/normalize.css">
+	<link rel="stylesheet" href="./css/main.css">
 	<link rel="icon" href="./images/favicon-32x32.png">
 	<title>Article Preview Component</title>
 </head>
 <body>
 	
 	<div class="card">
-		<img src="./images/drawers.jpg" alt="">
+		<img class="card__img" src="./images/drawers.jpg" alt="">
 
 		<div class="card__body">
 			<p class="card__title">
@@ -29,23 +31,23 @@
 
 				<p class="footer__name-date">
 					<span class="footer__name">Michelle Appleton</span>
-					<time class="footer__time" datetime="2020-06-28">28 Jun 2020</time>
+					<time class="footer__date" datetime="2020-06-28">28 Jun 2020</time>
 				</p>
 			</div>
 
 			<img class="footer__icon" src="./images/icon-share.svg" alt="">
-
-			<div class="share">
-				<div class="share__icons">
-					<p class="share__text">SHARE</p>
-					<img src="./images/icon-facebook.svg" alt="">
-					<img src="./images/icon-twitter.svg" alt="">
-					<img src="./images/icon-pinterest.svg" alt="">
-				</div>
-
-				<img class="share__icon" src="./images/icon-share.svg" alt="">
-			</div>
 		</footer>
+
+		<div class="share">
+			<div class="share__icons">
+				<p class="share__text">SHARE</p>
+				<img class="share__icon" src="./images/icon-facebook.svg" alt="">
+				<img class="share__icon" src="./images/icon-twitter.svg" alt="">
+				<img class="share__icon" src="./images/icon-pinterest.svg" alt="">
+			</div>
+
+			<img class="share__icon-share" src="./images/icon-share.svg" alt="">
+			</div>
 	</div>
 
 </body>
